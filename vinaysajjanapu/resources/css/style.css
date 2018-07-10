@@ -1,0 +1,277 @@
+/*___________basics___________*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    
+    
+}
+
+ 
+
+
+
+
+/*______________________________*/
+/*______header__________________*/
+/*______________________________*/
+header {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.67)),url(img/1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 50px;
+    
+}
+
+.hero-text-box,
+.line,
+.line2{
+    position: absolute;
+    text-transform: capitalize;
+   font-family: 'Lato', sans-serif;
+    width: 1140px;
+    transform: translate(-65%,-50%); 
+      
+}
+.hero-text-box{
+    top: 40%;
+    left: 50%;
+}
+
+.line,
+.line2{
+    left: 24%;
+    width: 20%;
+    
+}
+.line{
+    top: 43.5%;
+}
+.line2{
+    top: 47.2%
+}
+.cap{
+    position: absolute;
+    color: white;
+    top: 44%;
+    left:13%;
+    font-size: 110%;
+}
+
+
+}
+
+}
+
+
+}
+
+
+
+
+/*______SECTION____*/
+
+section {
+    margin-top: 50px;
+    padding: 80px 0;
+}
+
+
+.box{
+    
+    padding: 2%;
+    
+}
+ 
+.box p{
+    font-size: 90%;
+    line-height: 150%;
+    
+}
+
+
+.one{
+  width: 180px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    
+    
+}
+.two{
+  width: 120px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    
+    
+}
+.three{
+  width: 80px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    
+    
+}
+.four{
+  width: 120px;
+    margin-bottom: 0px;
+    margin-top: -15px;
+    
+    
+}
+
+/*____________MEALS_________*/
+.-showcase{
+    list-style: none;
+    width: 100%;
+    
+}
+.-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+.-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;    
+    
+}
+.-photo img{
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s;
+    transition: opacity 0.5s;
+        
+        
+
+}
+
+.-photo img:hover{
+    opacity: 1;
+        transform: scale(1.03);
+   
+}
+
+.section-photo{
+    padding: 0;
+    
+}
+
+
+
+
+/*____________headings_________*/
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 260%;  
+    word-spacing: 4px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 180%;
+    word-spacing: 2px;
+    margin-bottom: 30px;   
+}
+h3 {
+    margin-bottom: 15px;
+    color: orange;
+    
+}
+
+h1,h2,h3{
+     font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    content: "    ";
+    background-color: #e67e22;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+/*______________________________*/
+/*______paragraphs__________________*/
+/*______________________________*/
+
+
+.long-copy{
+    line-height: 140%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+footer{
+    background-color: #a8a8a8;
+}
+
+.k{
+    color:#000;
+    font-size: 200%;
+    margin-bottom: -10px;
+}
+.ion-logo-facebook{
+    color: #3B5998;
+    font-size: 300%;
+    padding-right: 20px;
+    
+}
+.ion-social-instagram{
+    color: #262626;
+    font-size: 300%;
+    padding-right: 20px;
+    
+}
+.ion-logo-linkedin{
+    color: #0077B5;
+    font-size: 300%;
+    padding-right: 20px;
+    
+}
+.ion-md-mail{
+    color: #db3236;
+    font-size: 200%;
+    padding-left: 30px;
+    
+}
+.gma{
+    display: inline;
+}
+
